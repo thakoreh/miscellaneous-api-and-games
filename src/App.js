@@ -1,4 +1,5 @@
 import React from 'react';
+import Pong from './Pong';
 import PropTypes from 'prop-types'; 
 // import logo from './logo.svg';
 import JokeSection from './jokesection.js';
@@ -182,7 +183,7 @@ function App() {
         </footer> */}
         <ChangeBackground />
         <br /> <br/>
-        <canvas id='gameCanvas' width="800" height="600"></canvas>
+        <Pong />
        
     </div>
   );

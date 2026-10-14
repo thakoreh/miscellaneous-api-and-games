@@ -16,7 +16,7 @@ class JokeSection extends Component{
     handleSubmit=(event)=>{
         event.preventDefault();
         // console.log("handleClick :",event);
-        fetch("https://sv443.net/jokeapi/category/"+String(this.state.value))
+        fetch("https://v2.jokeapi.dev/joke/"+String(this.state.value))
       .then(res => res.json())
       .then(
         (result) => {
